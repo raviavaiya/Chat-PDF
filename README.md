@@ -23,22 +23,36 @@ A **Streamlit-based web app** that lets you **upload a PDF and interact with it 
 ## 📦 Installation
 Follow these steps to set up and run the app locally:
 
+
 1. Clone the Repository
+
 git clone https://github.com/yourusername/pdf-chatbot.git
 
-2. Create and Activate Virtual Environment
+
+3. Create and Activate Virtual Environment
+
 cd pdf-chatbot
+
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install Required Packages
+
+5. Install Required Packages
+
 pip install -r requirements.txt
 
-4. Install and Run Ollama (if not installed)
+
+6. Install and Run Ollama (if not installed)
+
 ollama run phi3:mini
 
-5. Set Up Environment Variables
+
+7. Set Up Environment Variables
+
 LANGCHAIN_API_KEY=your_api_key_here
 
-6. Run the Streamlit App
+
+8. Run the Streamlit App
+
 streamlit run app.py
