@@ -1,7 +1,7 @@
 # 📄 Chat with PDF - LLM-Powered PDF Chatbot
 
 A **Streamlit-based web app** that lets you **upload a PDF and interact with it using natural language**, powered by **LangChain**, **Ollama**, and **FAISS**.
-
+<img align="right" alt="Coding" width="400" src="https://github.com/raviavaiya/Chat-PDF/blob/main/preview/Chat%20History.png">
 ## 🚀 Features
 
 - Upload and chat with any PDF document
