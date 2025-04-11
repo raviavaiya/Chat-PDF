@@ -85,30 +85,6 @@ def main():
             st.write(response)
             # st.write(llm)
 
-
-
-
-        # # create retriever
-        # retriever = vector_store.as_retriever(search_kwargs={"k": 1})
-
-        # # create LLM
-        # llm = Ollama(model="llama2", temperature=0.1)
-
-        # # create QA chain
-        # qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=retriever, chain_type="stuff")
-
-        # # user input
-        # # Ask a question
-        # query = st.text_input("Ask something about your PDF:")
-
-        # if query:
-        #     result = qa_chain.run(query)
-        #     st.write("Answer:", result)
-
-
-        
-
-
-    
+  
 if __name__ == "__main__":
         main()
