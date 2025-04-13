@@ -26,7 +26,7 @@ Follow these steps to set up and run the app locally:
 
 1. Clone the Repository
 
-git clone https://github.com/yourusername/pdf-chatbot.git
+git clone https://github.com/raviavaiya/pdf-chatbot.git
 
 
 3. Create and Activate Virtual Environment
